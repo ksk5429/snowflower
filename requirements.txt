@@ -15,6 +15,11 @@ pytest>=8.2
 pytest-cov>=5.0
 ruff>=0.6
 
+# Report generation (generate_report.py)
+python-docx>=1.1
+matplotlib>=3.8
+Pillow>=10.4
+
 # Video / captions / images (optional — install as needed)
 # ffmpeg-python>=0.2
 # faster-whisper>=1.0

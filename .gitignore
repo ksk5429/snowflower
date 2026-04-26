@@ -43,3 +43,6 @@ Thumbs.db
 # measurement / cache
 .metrics_cache/
 *.metrics.json
+
+# report build artifacts (charts are embedded in the .docx)
+_report_assets/

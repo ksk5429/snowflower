@@ -1,0 +1,55 @@
+# Sprint 1 source episode — Apple AssistiveTouch primer
+# Free, no hardware purchase. Sets up future episodes covering Quha / Glassouse / MouthPad.
+
+id: ep001
+title: "What if you couldn't use your hands? 5 free hands-free input tools you already own"
+description: |
+  A neutral primer on hands-free input. We cover five tools shipped with iOS,
+  iPadOS, macOS, Windows, and Android — all free, all already on a device most
+  viewers carry. This is the foundation for later snowflower coverage of
+  dedicated assistive devices like Quha Zono 2, Glassouse V2, and MouthPad^.
+
+tags:
+  - accessibility
+  - assistive technology
+  - hands free
+  - mobility
+  - assistive touch
+  - voice control
+  - eye control
+  - switch access
+
+# Paths are relative to this YAML file's directory (PROMOTION root).
+# Uncomment when source media exists.
+# video_path: ep001_raw.mp4
+# audio_path: ep001_raw.m4a
+# image_paths:
+#   - ep001_thumbnail.png
+
+long_form_text: |
+  Most people carry a hands-free input system in their pocket and don't know it.
+
+  This piece walks through five built-in tools — Apple AssistiveTouch, Apple Voice
+  Control, Windows Eye Control, Android Switch Access, and Talon Voice — and what
+  each one actually does. No purchase required. The point is not "switch to these
+  forever," but: if you suddenly couldn't use your hands tomorrow, what would
+  still work?
+
+  In future episodes, we cover the dedicated devices people graduate to: head
+  mice (Quha Zono 2, Glassouse), eye trackers (Tobii Eye Tracker 5), and intraoral
+  controllers (MouthPad^ from augmental.tech). Those exist because the built-ins
+  hit a ceiling — but the built-ins are the right place to start.
+
+short_text: |
+  5 hands-free input tools already on your phone, tablet, or laptop. No purchase.
+  Foundation for snowflower's coverage of dedicated assistive devices.
+
+disclosure_kind: neutral
+disclosure_text: |
+  snowflower is independent editorial. We are not affiliated with Apple, Microsoft,
+  Google, or any device covered in our future episodes (including Quha, Glassouse,
+  Tobii, augmental). No compensation, samples, or pre-publication review involved.
+
+target_languages:
+  - en
+  - ko

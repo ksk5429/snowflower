@@ -1,0 +1,45 @@
+# secrets
+.env
+.env.local
+*token.json
+*client_secret*.json
+oauth_state.json
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.venv/
+venv/
+
+# media artifacts (heavy; regenerable)
+*_raw.mp4
+*_raw.mov
+*_raw.m4a
+*_derived.mp4
+*_short.mp4
+*_thumbnail.png
+*_thumbnail.jpg
+*_captions.srt
+*_voiceover_kr.mp3
+*_results.json
+
+# os
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# measurement / cache
+.metrics_cache/
+*.metrics.json

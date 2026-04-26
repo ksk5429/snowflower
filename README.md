@@ -111,6 +111,8 @@ python -m venv .venv
 
 Sprint 0 complete — scaffold + connectors + dry-run verified end-to-end.
 
+**Account creation:** see `accounts_setup.md` for the work-along checklist with handle choices, bio templates, and per-platform OAuth instructions.
+
 **Working with real API code:** Bluesky, YouTube, LinkedIn, Threads, Stibee.
 **Stub-with-real-shape:** X (deferred to Sprint 2 once paid tier provisioned), TikTok (post-audit), Instagram (post-App-Review).
 **Manual-only by design:** Reddit, Naver Blog.

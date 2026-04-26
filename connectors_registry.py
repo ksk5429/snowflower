@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from base_connector import Connector
+from connector_beehiiv import BeehiivConnector
 from connector_bluesky import BlueskyConnector
 from connector_instagram import InstagramConnector
 from connector_linkedin import LinkedInConnector
@@ -19,6 +20,7 @@ REGISTRY: dict[str, type[Connector]] = {
     "youtube": YouTubeConnector,
     "linkedin": LinkedInConnector,
     "bluesky": BlueskyConnector,
+    "beehiiv": BeehiivConnector,
     "threads": ThreadsConnector,
     "x": XConnector,
     "tiktok": TikTokConnector,

@@ -41,11 +41,11 @@ Coverage rule: **no exclusive promotion of any single brand**. Every episode cov
 | 1 | YouTube long-form + Shorts | Hero (demos, mini-docs) |
 | 1 | LinkedIn | B2B (schools, VA, Medicaid, OT/PT, insurers) |
 | 1 | Bluesky | Tech-leaning audience, accessibility researchers |
+| 1 | **Beehiiv newsletter** | **Owned audience — the asset augmental will pay against** |
 | 2 | Threads | Cheap mirror |
 | 2 | Instagram Reels | Visual mirror (post Meta App Review 1–4 wk) |
 | 2 | TikTok | #DisabilityTikTok discovery (post audit 5–10 days) |
 | 2 | X (Twitter) | AI/research-side reach (pay-per-use ~$5–17/mo) |
-| 3 | Substack/Beehiiv | Owned newsletter |
 | 3 | Reddit | r/disability, r/als, r/SCI, r/MultipleSclerosis, ... — **manual** |
 | 3 | HN | Quarterly when SDK / OSS artifact ships — **manual** |
 | KR-1 | YouTube KR | Korean voiceover + 자막 |
@@ -112,6 +112,10 @@ python -m venv .venv
 Sprint 0 complete — scaffold + connectors + dry-run verified end-to-end.
 
 **Account creation:** see `accounts_setup.md` for the work-along checklist with handle choices, bio templates, and per-platform OAuth instructions.
+
+**Test methodology:** every device review references `methodology.md` (RTINGS-style measurement framework — Fitts's law throughput, NASA-TLX, Borg CR10, funding-path cost). Open for community review via Issues.
+
+**Strategy & playbook:** `research_findings.md` synthesizes 4 deep-research streams into a 90-day execution plan. `pitch_deck.md` shows the augmental.tech pitch structure (audience-density-first, not subscriber-count-first).
 
 **Working with real API code:** Bluesky, YouTube, LinkedIn, Threads, Stibee.
 **Stub-with-real-shape:** X (deferred to Sprint 2 once paid tier provisioned), TikTok (post-audit), Instagram (post-App-Review).

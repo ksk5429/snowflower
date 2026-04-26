@@ -140,7 +140,27 @@ Work-along guide. Each section is self-contained: do the steps, paste the result
   INSTAGRAM_ACCESS_TOKEN=xxx
   ```
 
-### [ ] 1.6 — X / Twitter (~5 min sign-up; defer paid API tier)
+### [ ] 1.6 — Beehiiv newsletter (~10 min) — **PRIMARY OWNED-AUDIENCE PLATFORM**
+
+Per `research_findings.md`: Beehiiv beats Substack (0% take vs 10% forever) and Kit (no 23.5% sponsor-network cut). Auto-fill ad network covers tooling cost by ~1,200 subs.
+
+- app.beehiiv.com  →  sign up with `snowflower.editorial@gmail.com`
+- Publication name: `snowflower`
+- Custom URL: `snowflower.beehiiv.com` (or `snowflower.tech` once domain points DNS)
+- Logo + cover (use profile_512 + 1200×600 cover)
+- Description: paste EN bio
+- Settings → Customize → enable: Recommendations Network, Boosts, Ad Network (auto-fill)
+- Settings → Integrations → API → generate key (label: "snowflower-engine")
+- Find publication ID under Settings → Account → Publication ID
+- Paste into `.env`:
+  ```
+  BEEHIIV_API_KEY=xxx
+  BEEHIIV_PUBLICATION_ID=pub_xxxxxxxx
+  ```
+- Verify: `python snowflower.py health-check` should show `beehiiv: ready=OK`
+- Test publish (creates a draft, NOT live): `python snowflower.py publish --episode ep001_episode.yaml --live --platforms beehiiv` — review draft in Beehiiv UI before clicking Send.
+
+### [ ] 1.7 — X / Twitter (~5 min sign-up; defer paid API tier)
 
 - x.com  →  sign up with `snowflower.editorial@gmail.com`
 - Handle: `@snowflower` (likely taken; try `@snowflowerHQ`, `@snowflower_a11y`)
@@ -181,12 +201,9 @@ Work-along guide. Each section is self-contained: do the steps, paste the result
   ```
 - **Posting stays manual** (the engine refuses to auto-post Reddit by design — shadowban risk too high)
 
-### [ ] 2.3 — Substack OR Beehiiv (pick one) (~10 min)
+### [x] 2.3 — Newsletter platform decided: **Beehiiv** (moved to Tier 1.6)
 
-- Substack: substack.com  →  sign in with `snowflower.editorial@gmail.com`  →  publication name `snowflower`
-- OR Beehiiv: beehiiv.com  →  same flow
-- For now, manual publish; engine doesn't auto-post (no official API)
-- Set canonical URL = future `snowflower.tech` once domain is registered
+Beehiiv chosen over Substack per `research_findings.md`. See section 1.6 above for setup.
 
 ---
 
